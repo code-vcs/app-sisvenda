@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque</title>
+    <link rel="stylesheet" href="../css/estoque.css">
+</head>
+
+<body>
+    <h3>Estoque:</h3><span>Ultimo produto cadastrado de N° </span><input type="button" id="numeroPedido" name="numeroPedido" value='0'>
+    <div class="container">
+        <input type="search" id="produto" name="produto" placeholder="Produto">
+        <input type="serach" id="referencia" name="referencia" placeholder="Referência">
+        <input type="number" id="quantidade" name="quantidade" placeholder="Quantidade">
+        <input type="number" id="valorUnitario" name="valorUnitario" placeholder="Valor Unitario">
+        <input type="number" id="valorRevenda" name="valorRevenda" placeholder="Valor Revenda">
+        <div class="container-button">
+            <button class="buttonCadastro" onclick="cadastrarProduto()">Cadastrar</button>
+        </div>    
+    </div>
+
+
+
+    <script src="../src/estoque.js"></script>
+</body>
+
+</html>

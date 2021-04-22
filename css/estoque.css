@@ -1,0 +1,68 @@
+
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(19, 19, 19);
+}
+span{
+    font-weight: bolder;
+    color: grey;
+    font-size: 25pt;
+}
+#numeroPedido{
+    color: rgb(0, 247, 255);
+}
+body{
+    background-color: rgb(19, 19, 19);
+    padding-left: 20px;
+}
+
+.container input{
+    display: block;
+}
+input{
+    outline: none;
+    width: 170px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: rgb(0, 247, 255);
+    border: 1px solid lightgrey;
+    background-color: rgba(214, 214, 214, 0.137);
+    box-shadow: 2px 3px 8px rgb(190, 190, 190);
+    padding-left: 10px;
+    font-size: 22pt;
+    text-align: center;
+
+}
+input::placeholder{
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: rgb(126, 126, 126);
+}
+input#produto{
+    width: 700px;
+}
+.container-button{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -50px;
+
+}
+.buttonCadastro{
+    outline: none;
+    width: 260px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 14pt;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid lightgrey;
+    background: linear-gradient(+30deg,rgb(22, 88, 119),black,rgb(10, 88, 161));
+}
+.buttonCadastro:hover{
+    background: linear-gradient(+30deg,rgb(32, 108, 143),black,rgb(3, 62, 85));
+}

@@ -1,0 +1,123 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(19, 19, 19);
+    /*background: linear-gradient(+80deg,rgb(4, 79, 82),rgb(12, 118, 160),black);*/
+    padding-left: 8px;
+}
+.cad-fisica{
+    color: rgb(40, 231, 40);
+    font-weight: bolder;
+}
+span{
+    color: rgb(235, 235, 235);
+}
+input{
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.76);
+    border: 1px solid lightgrey;
+    margin-left: 11px;
+    border-radius: 5px;
+    padding-left: 7px;
+    color: rgb(211, 211, 211);
+    text-align: center;
+    font-size: 10pt;
+}
+input::placeholder{
+    padding-left: 7px;
+    font-size: 8pt;
+    color: rgba(105, 105, 105, 0.555);
+}
+input#nomeCompleto{
+    width: 400px;
+}
+input#idade{
+    width: 80px;
+}
+input#cpf{
+    width: 150px;
+}
+input#cpf::placeholder{
+    width: 150px;
+    font-size: 10pt;
+}
+input#rg{
+    width: 150px;
+}
+input#rg::placeholder{
+    width: 150px;
+    font-size: 10pt;
+}
+input#telefone-1{
+    width: 160px;
+}
+input#celular-1{
+    width: 160px;
+}
+input#celular-2{
+    width: 160px;
+}
+input#email{
+    width: 510px;
+    font-size: 10pt;
+}
+input#email::placeholder{
+    text-align: center;
+    color: blue;
+}
+
+.cad-cnpj{
+    color: rgb(161, 7, 7);
+    font-weight: bolder;
+}
+input#nomeEmpressa{
+    width: 350px;
+    font-size: 10pt;
+}
+input#nomeFantasia{
+    width: 400px;
+}
+select{
+    outline: none;
+    margin-left: 40px;
+    width: 180px;
+    height: 20px;
+    font-size: 10pt;
+    background: transparent;
+    text-align: center;
+    border: 1px solid yellow;
+    color: rgb(37, 37, 37);
+}
+select{
+    background: transparent;
+}
+
+
+.end-entrega{
+    color: rgb(255, 0, 76);
+    font-weight: bolder;
+}
+
+input#logradouro{
+    width: 422px;
+}
+input#uf{
+    width: 45px;
+}
+
+#btCadastrar{
+    float: left;
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    margin-left: -500px;
+    margin-top: 75px;
+    color: black;
+    background: linear-gradient(yellow,yellow,black);
+    font-weight: bolder;
+}

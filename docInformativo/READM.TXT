@@ -1,0 +1,18 @@
+Sisvendas.
+
+Data inicio de criação: 11/04/2021
+Termino de criação:
+Author: Vladimir c. Silva   Desenvolvedor
+
+Olá seja muito bem vindo ao Sisvendas, ficamos muito feliz em saber que adquirio oproduto de auticima qualidade aproveite o maximo.
+Este sistema tem a finalidade de automatizar a gestão da sua empressa, tanto nas vendas como no andamento do caixa e etc
+
+_________________________________________________
+
+INFORMAÇÕES DE USO DO SISTEMA.
+
+
+Help:
+
+ALT + F4  => FECHA A TELA
+F5        => ATUALIZAR PAGINA

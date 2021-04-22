@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/cliente.css">
+
+
+</head>
+
+<body>
+    <p class="cad-fisica">Cadastro pessoa fisica:</p>
+    <div class="formulario">
+        <span>Nome completo:</span><input type="search" id="nomeCompleto" name="nomeCompleto"
+            placeholder="Nome completo" autocomplete="off">
+        <span>Idade:</span><input type="number" id="idade" name="idade" placeholder="Idade">
+        <span>Data Nascimento:</span><input type="date" id="dataNascimento" name="dataNascimento"
+            autocomplete="off"><br><br>
+        <span>CPF:</span><input type="search" id="cpf" name="cpf" placeholder="xxx.xxx.xxx-xx" autocomplete="off"
+            maxlength="14">
+        <span>RG:</span><input type="search" id="rg" name="rg" autocomplete="off" placeholder="xx.xxx.xxx.xx"
+            maxlength="14">&nbsp;&nbsp;&nbsp;
+       <input type="hidden">
+       <input type="hidden">
+            
+        <span>Tel-1</span><input type="search" id="telefone-1" name="telefone-1" placeholder="Tel-1 (11)-5662-8800"
+            maxlength="14" autocomplete="off">
+        <span>Tel-2</span><input type="search" id="telefone-2" name="telefone-2" placeholder="Tel-1 (11)-5662-8800"
+            maxlength="14" autocomplete="off">
+        <br><br>
+        <span>Cel-1</span><input type="search" id="celular-1" name="celular-1" placeholder="Cel-1 (11)-5662-8800"
+            maxlength="14" autocomplete="off">
+        <span>Cel-2</span><input type="search" id="celular-2" name="celular-2" placeholder="Cel-2 (11)-989777280"
+            maxlength="14" autocomplete="off">
+        <span>E-mail</span><input type="email" id="email" name="email" placeholder="E-mail: meu-nome@gmail.com.br"
+            autocomplete="off">
+        <hr>
+        <p class="cad-cnpj">Cadastro pessoa juridica</p>
+        <span>CNPJ:</span><input type="search" id="cnpj" name="cnpj" maxlength="18"
+            placeholder="CNPJ 63.004.030.0030-20" autocomplete="off">
+        <span>Razão social:</span><input type="search" id="nomeEmpressa" name="nomeEmpressa"
+            placeholder="Distribuidora de agua LTDA" autocomplete="off">
+        <select name="ramo-pertencente" id="ramo-pertencente">
+            <optgroup label="Ramo pertencente?">
+                <option value="construcao">Construção</option>
+                <option value="distribuidora">Distribuidora</option>
+                <option value="outros">Outros</option>
+            </optgroup>
+        </select><br><br>
+        <span>Nome Fantasia</span><input type="search" id="nomeFantasia" name="nomeFantasia"
+            placeholder="RBG agua mineira Ltda" autocomplete="off">
+        <hr>
+        <p class="end-entrega">Endereço de entrega</p>
+        <span>CEP</span><input type="search" id="cep" name="cep" placeholder="CEP 04543-180" maxlength="9">
+        <span>Logradouro</span><input type="search" id="logradouro" name="logradouro"
+            placeholder="Rua maria das flores">
+        <span>N°</span><input type="number" id="numeroCasa" name="numeroCasa" placeholder="N° 324"><br><br>
+        <span>Bairro:</span><input type="search" id="bairro" name="bairro" placeholder="bairro" autocomplete="off">
+        <span>Cidade:</span><input type="search" id="cidade" name="cidade" placeholder="Cidade" autocomplete="off">
+        <span>UF</span><input type="button" value="" id="uf" name="uf">
+
+        <span></span><input type="button" id="btCadastrar" name="btCadastrar" value="Atualizar cadastro" onclick="btCadastrar()">
+
+    </div>
+
+
+
+    <script src="../src/cliente.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

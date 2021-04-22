@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(19, 19, 19);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h3{
+    font-size: 10pt;
+    color: rgb(6, 210, 218);
+}
+hr{
+    border: 1px solid rgba(97, 97, 97, 0.288);
+}
+#listar{
+    width: 450px;
+    height: 40px;
+    font-size: 18pt;
+    font-style: oblique;
+    background: transparent;
+    color: blue;
+}
+#salvar{
+    outline: none;
+    width: 130px;
+    height: 30px;
+    background: linear-gradient(rgba(255, 0, 0, 0.747),rgba(0, 0, 0, 0.781),rgba(0, 0, 0, 0.795));
+    color: lightgrey;
+    border: none;
+    border-radius: 10px;
+    font-size: 10pt;
+
+
+}
+input{
+    outline: none;
+    text-align: center;
+    border: 1px solid rgba(78, 78, 78, 0.521);
+}
+#produtoPesquisa{
+    padding-left: 10px;
+    width: 150px;
+    height: 35px;
+    border: 1x solid lightgrey;
+    background: transparent;
+    color: blue;
+    font-size: 15pt;
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+#produtoPesquisa::placeholder{
+    color: rgba(66, 66, 66, 0.719);
+    font-size: 8pt;
+}
+#produtoSelecionado{
+    padding-left: 10px;
+    width: 790px;
+    height: 35px;
+    border: 1x solid lightgrey;
+    background: transparent;
+    color: rgb(56, 177, 19);
+    text-align: start;
+    font-size: 18pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#produtoSelecionado::placeholder{
+    font-size: 15pt;
+   
+}
+#quantidade{
+    padding-left: 10px;
+    width: 290px;
+    height: 35px;
+    border: 1x solid lightgrey;
+    background: transparent;
+    color: rgb(56, 177, 19);
+    font-size: 18pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#valorProduto{
+    padding-left: 10px;
+    width: 290px;
+    height: 35px;
+    border: 1x solid lightgrey;
+    background: transparent;
+    color: rgb(56, 177, 19);
+    font-size: 18pt;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+#salvarCarrinho{
+    outline: none;
+    width: 230px;
+    height: 40px;
+    background: linear-gradient(red,black,black);
+    color: lightgrey;
+    border: none;
+    border-radius: 10px;
+    font-size: 16pt;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+#salvarCarrinho:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.699),rgb(0, 0, 0),rgb(92, 1, 1));
+
+}
+.linha-1{
+    width: 290px;
+}
+#totalDaCompra{
+    padding-left: 10px;
+    width: 290px;
+    height: 65px;
+    border: 1x solid lightgrey;
+    background: transparent;
+    color: rgb(6, 210, 218);
+    font-size: 22pt;
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+
+.lista{
+    float: left;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -330px;
+}

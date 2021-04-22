@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+/*font-family: 'Gupter', serif;*/
+
+body{
+    background-color: rgb(19, 19, 19);
+}
+
+h1{
+    background: linear-gradient(+100deg,black,rgb(65, 0, 16),rgb(0, 0, 0));
+    color: rgb(233, 233, 233);
+    text-shadow: 2px 2px 5px rgb(73, 73, 73);
+    font-family: 'Gruppo', cursive;
+    font-weight: bolder;
+   
+}
+
+.container-botoes button{
+    display: block;
+    position: relative;
+    width: 150px;
+    margin-top: 3px;
+    color: rgb(45, 248, 248);
+}
+
+iframe{
+    float: left;
+    position: absolute;
+    margin-left: 168px;
+    margin-top: -380px;
+    width: 1100px;
+    height: 598px;
+    border: 1px solid rgba(46, 46, 46, 0.466);
+    background: rgba(46, 46, 46, 0);
+    box-shadow: 1PX 3PX 8PX rgb(0, 0, 0);
+}
+.botoes-comandos{
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    width: 120px;
+    height: 45px;
+    border: 1px solid rgba(119, 119, 119, 0.233);
+    padding-top: 6.5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top:100px;
+    margin-left: 20px;
+
+}
+button{
+    outline: none;
+    background: transparent;
+    border: none;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    color: red;
+}
+button:hover{
+    transition: 2s;
+    background: linear-gradient(+20deg,rgba(0, 0, 0, 0.479),rgba(58, 2, 11, 0.699));
+
+  
+}
+
+.botoes-comandos button{
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid rgb(43, 43, 43);
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    padding-right: 15px;
+    box-shadow: 1px 1px 2px rgb(151, 151, 151);
+
+
+}
+.botoes-comandos button.btAtualizar{
+    background: rgb(2, 185, 161);
+}
+.botoes-comandos button.btAtualizar:hover{
+    background: rgb(9, 161, 161);
+    text-shadow: 1px 2px 3px black;
+    color: rgb(101, 232, 255);
+}
+.botoes-comandos button.btDesligar{
+    background: rgb(173, 7, 7);
+}
+.botoes-comandos button.btDesligar:hover{
+    background: rgb(88, 2, 2);
+    text-shadow: 1px 2px 3px rgb(255, 114, 114);
+    color: rgb(101, 232, 255);
+}
+.relogio{
+    position: relative;
+    font-size: 28pt;
+    font-family: 'Gupter', serif;
+    color: rgb(168, 168, 168);
+    text-shadow: 1px 2px 3px rgb(206, 2, 53);
+    text-align: center;
+    margin-top: 85px;   
+}
+
+i{
+    color: rgb(206, 2, 53);
+   
+   
+}
+i:hover{
+    transition: 1s;
+    color: rgb(0, 237, 245);
+    font-size: 26pt;
+}
+.fa-firefox{
+    color: rgb(238, 106, 29);
+}

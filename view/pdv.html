@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/pdv.css">
+</head>
+
+<body>
+    <h3>PDV</h3>
+    <div>
+        <input type="search" id="produtoPesquisa" name="produtoPesquisa" placeholder="Codigo do produto"
+            autocomplete="off">
+        <input type="submit" id="salvar" value="Consultar produto" onclick="salvarVenda()">
+    </div>
+    <hr>
+    <center>
+        <input type="search" id="listar" list="listarProduto">
+        <datalist id="listarProduto" class="fa fa-search fa-2x">
+         
+        </datalist>
+    </center>
+  
+    <br>
+    <input type="search" id="produtoSelecionado" name="produtoSelecionado" placeholder="Produto selecionado"><br><br>
+    <input type="button" id="valorProduto" name="valorProduto" value="0.00"><br><br>
+    <input type="search" id="quantidade" name="quantidade" placeholder="Quantidade"><br><br>
+    <button id="salvarCarrinho" onclick="salvarCarrinho()">Salvar no Carrinho</button>
+    <hr class="linha-1"><br>
+    <input type="button" id="totalDaCompra" name="totalDaCompra" value='0.00'>
+
+    <div class="lista"></div>
+
+
+
+
+    <script src="../src/pdv.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
